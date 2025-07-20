@@ -1,0 +1,10 @@
+---- Xác thực laptop và github
+git config --global user.name "your name"
+git config --global user.email "your email"
+
+----Các bước khi tạo 1 repo github để nộp bài ----
+1. Tạo repo trên github
+2. Chuyển folder code sang local repo
+    + git init
+3. Thiết lập kết nối giữa local repo(laptop) và remote repo
+    + git remote add origin + url github repo
