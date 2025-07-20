@@ -12,4 +12,9 @@ git config --global user.email "taidangdev@gmail.com"
     + git add -A
     + git commit -m "message"
     + git push -u origin master
-    
+
+BRANCH
+ +Tạo nhành mới, nhánh mới sau khi tạo sẽ có nội dung giống hoàn toàn so với nhánh gốc:
+    - git checkout -b tennhanhmoi
+ + Chuyển nhánh
+    - git checkout ten nhanh
