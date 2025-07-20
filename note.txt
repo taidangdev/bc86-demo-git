@@ -1,6 +1,6 @@
 ---- Xác thực laptop và github
-git config --global user.name "your name"
-git config --global user.email "your email"
+git config --global user.name "taidangdev"
+git config --global user.email "taidangdev@gmail.com"
 
 ----Các bước khi tạo 1 repo github để nộp bài ----
 1. Tạo repo trên github
@@ -8,3 +8,8 @@ git config --global user.email "your email"
     + git init
 3. Thiết lập kết nối giữa local repo(laptop) và remote repo
     + git remote add origin + url github repo
+4. Đưa file code từ laptop lên github
+    + git add -A
+    + git commit -m "message"
+    + git push -u origin master
+    
